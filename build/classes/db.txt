@@ -1,0 +1,11 @@
+//Inicijalna skripta za kreiranje baze podataka
+
+CREATE DATABASE ssmkdb;
+USE ssmkdb;
+
+
+CREATE TABLE ssmkdb.users (id INTEGER, name VARCHAR(50), donji INTEGER, gornji INTEGER, password VARCHAR(50));
+INSERT INTO ssmkdb. users (id, name, donji, gornji, password) VALUES (1, "Sara", 90, 150, "1993");
+INSERT INTO ssmkdb. users (id, name, donji, gornji, password) VALUES (2, "Ena", 90, 150, "1992");
+INSERT INTO ssmkdb. users (id, name, donji, gornji, password) VALUES (3, "Fatima", 90, 150, "1993");
+
